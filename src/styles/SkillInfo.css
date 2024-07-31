@@ -14,13 +14,10 @@
     margin-bottom: 2px;
   }
   
-  .skill-info-Description {
-    font-size: 15.4px;
-  }
-  
   .skill-info-description {
     margin-top: 4px;
     white-space: pre-wrap;
+    font-size: 15.4px;
   }
 
   .skill{
