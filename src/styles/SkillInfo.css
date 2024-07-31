@@ -1,0 +1,28 @@
+.skill-info {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 24px;
+  }
+  
+  .skill-info-group {
+    min-width: 150px;
+  }
+  
+  .skill-info-title {
+    font-family: var(--resume-bold);
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  
+  .skill-info-Description {
+    font-size: 15.4px;
+  }
+  
+  .skill-info-description {
+    margin-top: 4px;
+    white-space: pre-wrap;
+  }
+
+  .skill{
+    font-family: var(--resume-bold);
+  }

@@ -1,0 +1,95 @@
+.resume-side{
+    width: 60%;
+}
+
+.resume-container {
+    height: 29.7cm;
+    box-shadow: rgba(50, 50, 93, 0.1) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.25) 0px 8px 16px -8px;
+      width: 100%;   
+    margin: auto;  
+    overflow: hidden; 
+  }
+  
+  .resume {
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    font-family: var(--resume-font);
+    display: grid;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .resume.top {
+    grid-template-rows: auto 1fr;
+  }
+  
+  .resume.left {
+    grid-template-columns: 44% 56%;
+  }
+  
+  .resume.right {
+    grid-template-columns: 56% 44%;
+  }
+  
+  .resume.right > :first-child {
+    grid-column: 2 / 2;
+    grid-row: 1 / end;
+  }
+  .resume.right > :last-child {
+    grid-column: 1 / 1;
+    grid-row: 1 / end;
+  }
+  
+  .resume-section {
+    padding: 0 56px;
+    margin-top: 40px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .resume h1,
+  .resume h2,
+  .resume h3 {
+    font-family: var(--resume-bold);
+    font-weight: bold;
+  }
+  
+  .header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 4px 0;
+    background-color: var(--section-resume-bg);
+    color: var(--resume-accent);
+  }
+
+  #download-button{
+    width: 100%;
+    margin-bottom: 24px;
+    height: 50px;
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    top: 8px;
+    z-index: 3;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    font-size: 13.5px;
+    border-radius: 4px;
+    border: none;
+    font-family: "NotoSans-bold";
+    flex-grow: 1;
+    align-items: center;
+    color: green;
+  }
