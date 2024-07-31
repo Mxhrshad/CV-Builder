@@ -33,7 +33,7 @@ function SkillForm(props) {
         placeholder="Enter Description"
         value={skillDescription}
         onChange={onChange}
-        data-key="SkillDescription"
+        data-key="skillDescription"
         optional
       />
       <Buttons save={save} cancel={cancel} remove={remove} />
